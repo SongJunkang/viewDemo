@@ -15,6 +15,8 @@ public class ColumnTitle171 {
 
             int mid = c - 'A' +1;
 //            sum = mid * (26^(j-1)) +sum;这个有问题
+            //java中^表示位运算。^是异或运算符，符号两边的数必须为二进制。
+            //计算方式：符号左右两边的二进制数，相应的位相同为0，不相同为1
 
             sum += mid * Math.pow(26,j-1);
 
