@@ -69,7 +69,7 @@ public class KuoHao20 {
 
     public static void main(String[] args) {
 
-        String s = "(";
+        String s = "()";
 
         Boolean result = KuoHao20.isValid(s);
 
